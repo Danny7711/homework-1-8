@@ -1,64 +1,67 @@
-/* Задание 1: Текст */
-h1 {
+
+.main-title {
     text-align: center;
-    color: crimson;
+    color: orange;
+    font-size: 36px;
 }
 
 h2 {
-    color: darkgreen;
+    color: darkred;
 }
 
-p.large {
-    font-size: 20px;
+
+.intro {
+    font-size: 18px;
 }
 
-p.bold {
+.bold-paragraph {
     font-weight: bold;
     font-size: 16px;
 }
 
-p.small {
+.small-paragraph {
     font-size: 12px;
 }
 
-/* Задание 2: Фон */
+
 .background-box {
-    background-color: lightblue;
-    background-image: url('https://via.placeholder.com/150'); /* Можешь заменить ссылку на любое изображение */
+    background-color: #fdf3d1;
+    background-image: url('https://i.imgur.com/k9BBLsq.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
     margin: 20px 0;
+    color: white;
 }
 
-/* Задание 3: Отступы и рамки */
+
 .block {
     padding: 15px;
     margin: 10px;
-    border: 2px solid #333;
-    background-color: #f9f9f9;
+    border: 2px solid #444;
+    background-color: #fffbe6;
 }
 
-/* Задание 4: Размеры и overflow */
 .box {
     margin: 10px 0;
     padding: 10px;
     border: 1px solid #aaa;
-    background-color: #eee;
+    background-color: #f0f0f0;
 }
 
 .small-box {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
 }
 
 .medium-box {
-    width: 200px;
+    width: 250px;
     height: 100px;
 }
 
 .overflow-box {
     width: 300px;
-    height: 80px;
-    overflow: auto; /* Можешь поменять на hidden, scroll, visible */
+    height: 100px;
+    overflow: auto;
 }
+
