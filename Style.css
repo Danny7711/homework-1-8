@@ -1,0 +1,64 @@
+/* Задание 1: Текст */
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+p.large {
+    font-size: 20px;
+}
+
+p.bold {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.small {
+    font-size: 12px;
+}
+
+/* Задание 2: Фон */
+.background-box {
+    background-color: lightblue;
+    background-image: url('https://via.placeholder.com/150'); /* Можешь заменить ссылку на любое изображение */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Задание 3: Отступы и рамки */
+.block {
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: #f9f9f9;
+}
+
+/* Задание 4: Размеры и overflow */
+.box {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+}
+
+.small-box {
+    width: 100px;
+    height: 50px;
+}
+
+.medium-box {
+    width: 200px;
+    height: 100px;
+}
+
+.overflow-box {
+    width: 300px;
+    height: 80px;
+    overflow: auto; /* Можешь поменять на hidden, scroll, visible */
+}
